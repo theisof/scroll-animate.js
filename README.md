@@ -7,7 +7,7 @@ Depends on jQuery.
 
 See a live example: [pandapace.com](https://www.pandapace.com/)
 
-## How it works
+## Getting started
 
 First of all include the scroll-animate.js script on your site - after jQuery (and optionally animate.css)
 
@@ -33,3 +33,5 @@ Top-offsets are saved on document.ready, therefore, it's advised to add dimensio
 
 * jQuery (necessary)
 * animate.css (optional)
+
+Made by [theis.co](http://theis.co)
