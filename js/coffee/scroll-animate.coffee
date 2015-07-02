@@ -40,7 +40,7 @@ class ScrollAnimate
             animation = $this.data('animation')
 
             $this.css 'visibility', 'visible'
-            $this.addClass("#{animation}").dequeue()
+            $this.addClass(animation).dequeue()
 
           options.loaded = true
 
