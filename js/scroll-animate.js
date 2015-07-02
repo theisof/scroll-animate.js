@@ -28,8 +28,10 @@
           'offset': $element.offset().top
         });
       });
-      this.animate();
-      return this.intervalScroll();
+      if (this.elements.length) {
+        this.animate();
+        return this.intervalScroll();
+      }
     };
 
     ScrollAnimate.prototype.animate = function() {
@@ -49,7 +51,7 @@
               $this = $(this);
               animation = $this.data('animation');
               $this.css('visibility', 'visible');
-              return $this.addClass("" + animation).dequeue();
+              return $this.addClass(animation).dequeue();
             });
             options.loaded = true;
             queue++;

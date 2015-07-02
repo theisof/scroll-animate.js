@@ -18,8 +18,9 @@ class ScrollAnimate
         'animation' : $element.data('scroll-animate')
         'offset'    : $element.offset().top
     
-    @animate()
-    @intervalScroll()
+    if @elements.length
+      @animate()
+      @intervalScroll()
 
   animate: ->
     queue     = 0
