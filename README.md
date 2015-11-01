@@ -5,7 +5,7 @@ Scroll-animate.js dynamically adds animation classes to elements as they are scr
 
 Depends on jQuery.
 
-See a live example: [pandapace.com](https://www.pandapace.com/)
+See a live example: [heynifty.com](https://www.heynifty.com/)
 
 ## Getting started
 
